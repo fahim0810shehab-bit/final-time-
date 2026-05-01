@@ -68,3 +68,28 @@ storybook-static
 # Build debug artifacts
 ts_errors.txt
 ts_validation.txt
+
+# Test files — not needed for Render deployment
+**/*.spec.ts
+**/*.spec.tsx
+vitest.polyfills.ts
+vitest.setup.ts
+vitest.config.ts
+
+# Docker — not used on Render static
+Dockerfile
+.dockerignore
+
+# Azure Static Web Apps CLI — not needed on Render
+swa-cli.config.json
+
+# CI / Code quality tools
+sonar-project.properties
+commitlint.config.cjs
+deploy.sh
+
+# Docs — not needed for build
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md
+DEPLOYMENT.md

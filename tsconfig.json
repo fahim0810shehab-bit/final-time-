@@ -34,5 +34,5 @@
     "types": ["vitest/globals", "@testing-library/jest-dom"]
   },
   "include": ["src"],
-  "exclude": ["node_modules", "vite.config.ts"]
+  "exclude": ["node_modules", "vite.config.ts", "**/*.spec.ts", "**/*.spec.tsx", "vitest.polyfills.ts", "vitest.setup.ts"]
 }
